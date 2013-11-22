@@ -23,3 +23,10 @@ func main() {
   sw.Close()
 }
 ```
+
+Notes
+-----
+
+I'm using gosass (https://github.com/moovweb/gosass) to interface with libsass.
+I included `gosass.go` directly instead of importing it from its repo because stupid
+me can't figure out how some of the C stuff works :P
